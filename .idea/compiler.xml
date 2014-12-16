@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="container-plugin" />
+        <module name="dt-active-directory-access" />
+        <module name="dt-active-directory-refresh" />
+        <module name="dt-active-directory-refresh-delegate" />
+        <module name="dt-active-directory-refresh-service-mbean-api" />
+        <module name="dt-active-directory-refresh-service-mbean-impl" />
+        <module name="dt-admin-impl" />
+        <module name="dt-admin-web" />
+        <module name="dt-agent-communicator-common" />
+        <module name="dt-agent-communicator-dao-api" />
+        <module name="dt-agent-communicator-dao-impl" />
+        <module name="dt-agent-downstream-communicator-api" />
+        <module name="dt-agent-downstream-communicator-mcast-impl" />
+        <module name="dt-agent-downstream-communicator-tcp-impl" />
+        <module name="dt-agent-upstream-communicator-api" />
+        <module name="dt-agent-upstream-communicator-udp-impl" />
+        <module name="dt-aggregator-ejb-api" />
+        <module name="dt-aggregator-ejb-impl" />
+        <module name="dt-aggregator-security-mbean" />
+        <module name="dt-allocator-api" />
+        <module name="dt-allocator-ejb-api" />
+        <module name="dt-allocator-ejb-impl" />
+        <module name="dt-allocator-impl" />
+        <module name="dt-authentication-mgr-api" />
+        <module name="dt-authentication-mgr-common" />
+        <module name="dt-blast-html5" />
+        <module name="dt-bootstrap-ws-war" />
+        <module name="dt-cache" />
+        <module name="dt-client-desktop-allocator-api" />
+        <module name="dt-client-desktop-allocator-impl" />
+        <module name="dt-client-login-mgr-api" />
+        <module name="dt-client-login-mgr-impl" />
+        <module name="dt-collector-api" />
+        <module name="dt-collector-delegate-api" />
+        <module name="dt-collector-delegate-ejb-api" />
+        <module name="dt-collector-delegate-ejb-impl" />
+        <module name="dt-collector-delegate-impl" />
+        <module name="dt-collector-delegate-mbean-api" />
+        <module name="dt-collector-delegate-mbean-impl" />
+        <module name="dt-collector-impl" />
+        <module name="dt-collector-war" />
+        <module name="dt-common-dao" />
+        <module name="dt-common-data-model" />
+        <module name="dt-component-location-manager" />
+        <module name="dt-compression-filter" />
+        <module name="dt-core" />
+        <module name="dt-core-web" />
+        <module name="dt-database-aop" />
+        <module name="dt-database-dao-api" />
+        <module name="dt-database-dao-impl" />
+        <module name="dt-database-delegate-api" />
+        <module name="dt-database-delegate-impl" />
+        <module name="dt-database-model" />
+        <module name="dt-delegate-provider-internal" />
+        <module name="dt-delegate-provider-remote" />
+        <module name="dt-deployer-ear" />
+        <module name="dt-deployer-mbean" />
+        <module name="dt-desktop-eventmgr-api" />
+        <module name="dt-desktop-eventmgr-impl" />
+        <module name="dt-desktopfactory-api" />
+        <module name="dt-desktopfactory-impl" />
+        <module name="dt-desktopmgr-api" />
+        <module name="dt-desktopmgr-impl" />
+        <module name="dt-directory-server-api" />
+        <module name="dt-directory-server-impl" />
+        <module name="dt-emgr-deployer-service-mbean-api" />
+        <module name="dt-emgr-deployer-service-mbean-impl" />
+        <module name="dt-emgr-ear" />
+        <module name="dt-emgr-jar" />
+        <module name="dt-emgr-main-api" />
+        <module name="dt-emgr-main-impl" />
+        <module name="dt-emgr-messaging-war" />
+        <module name="dt-emgr-model-api" />
+        <module name="dt-emgr-model-impl" />
+        <module name="dt-emgr-persistence" />
+        <module name="dt-emgr-policymgr-api" />
+        <module name="dt-emgr-policymgr-impl" />
+        <module name="dt-emgr-registration" />
+        <module name="dt-emgr-registration-service-mbean-api" />
+        <module name="dt-emgr-registration-service-mbean-impl" />
+        <module name="dt-emgr-security-mbean" />
+        <module name="dt-emgr-ws-api" />
+        <module name="dt-emgr-ws-client" />
+        <module name="dt-emgr-ws-impl" />
+        <module name="dt-event-sender-ejb-api" />
+        <module name="dt-event-sender-ejb-impl" />
+        <module name="dt-eventmgr-client-api" />
+        <module name="dt-eventmgr-server" />
+        <module name="dt-fabric-access-api" />
+        <module name="dt-fabric-access-mbean-api" />
+        <module name="dt-fabric-access-mbean-impl" />
+        <module name="dt-fabric-aop" />
+        <module name="dt-fabric-dao-api" />
+        <module name="dt-fabric-dao-impl" />
+        <module name="dt-fabric-data-model" />
+        <module name="dt-fabric-delegate" />
+        <module name="dt-fabric-delegate-ejb-api" />
+        <module name="dt-fabric-delegate-ejb-impl" />
+        <module name="dt-fabric-delegate-impl" />
+        <module name="dt-fabric-delegate-impl-test" />
+        <module name="dt-fabric-mapping-mgr-api" />
+        <module name="dt-fabric-mapping-mgr-impl" />
+        <module name="dt-fabric-node-inventory" />
+        <module name="dt-fabric-node-security-mbean" />
+        <module name="dt-fabric-persistence" />
+        <module name="dt-fabric-userpattern-ejb-api" />
+        <module name="dt-fabric-userpattern-ejb-impl" />
+        <module name="dt-fabric-vmgr-ws-api" />
+        <module name="dt-fabric-vmgr-ws-impl" />
+        <module name="dt-fabric-ws-api" />
+        <module name="dt-fabric-ws-impl" />
+        <module name="dt-fabric-ws-security-mbean" />
+        <module name="dt-fabric-ws-security-mbean-remote" />
+        <module name="dt-fabric-ws-war" />
+        <module name="dt-federation" />
+        <module name="dt-hostmgr-sim-dao-api" />
+        <module name="dt-hostmgr-sim-dao-impl" />
+        <module name="dt-hostmgr-sim-datamodel" />
+        <module name="dt-hostmgr-sim-ear" />
+        <module name="dt-hostmgr-sim-mbean-api" />
+        <module name="dt-hostmgr-sim-mbean-impl" />
+        <module name="dt-hostmgr-sim-security-impl" />
+        <module name="dt-hostmgr-sim-security-mbean" />
+        <module name="dt-hostmgr-sim-service-api" />
+        <module name="dt-hostmgr-sim-service-impl" />
+        <module name="dt-hostmgr-sim-ws-api" />
+        <module name="dt-hostmgr-sim-ws-client" />
+        <module name="dt-hostmgr-sim-ws-war" />
+        <module name="dt-hypervisormgr-api" />
+        <module name="dt-hypervisormgr-common" />
+        <module name="dt-hypervisormgr-impl" />
+        <module name="dt-installmanager-api" />
+        <module name="dt-installmanager-dao-impl" />
+        <module name="dt-installmanager-data-model" />
+        <module name="dt-installmanager-impl" />
+        <module name="dt-installmanager-security-mbean" />
+        <module name="dt-installmanager-service-mbean-api" />
+        <module name="dt-installmanager-service-mbean-impl" />
+        <module name="dt-java-bindings" />
+        <module name="dt-logger" />
+        <module name="dt-messaging-api" />
+        <module name="dt-messaging-impl" />
+        <module name="dt-model-api" />
+        <module name="dt-model-impl" />
+        <module name="dt-monitoring-api" />
+        <module name="dt-monitoring-impl" />
+        <module name="dt-monitoring-war" />
+        <module name="dt-naming-context" />
+        <module name="dt-policymgr-api" />
+        <module name="dt-policymgr-delegate" />
+        <module name="dt-policymgr-delegate-ejb-api" />
+        <module name="dt-policymgr-delegate-ejb-impl" />
+        <module name="dt-policymgr-delegate-impl" />
+        <module name="dt-policymgr-delegate-ws-api" />
+        <module name="dt-policymgr-delegate-ws-impl" />
+        <module name="dt-policymgr-delegate-ws-war" />
+        <module name="dt-poolmgr-delegate-api" />
+        <module name="dt-poolmgr-delegate-ejb-api" />
+        <module name="dt-poolmgr-delegate-ejb-impl" />
+        <module name="dt-poolmgr-delegate-impl" />
+        <module name="dt-poolmgr-delegate-ws-api" />
+        <module name="dt-poolmgr-delegate-ws-impl" />
+        <module name="dt-poolmgr-delegate-ws-war" />
+        <module name="dt-poolmgr-mbean-api" />
+        <module name="dt-poolmgr-mbean-impl" />
+        <module name="dt-poolmgr-ws-api" />
+        <module name="dt-poolmgr-ws-client" />
+        <module name="dt-poolmgr-ws-impl" />
+        <module name="dt-poolmgr-ws-war" />
+        <module name="dt-provision-api" />
+        <module name="dt-provision-impl" />
+        <module name="dt-public-ws-common" />
+        <module name="dt-public-ws-user-api" />
+        <module name="dt-public-ws-user-impl" />
+        <module name="dt-public-ws-user-war" />
+        <module name="dt-quota-mgr-api" />
+        <module name="dt-quota-mgr-common" />
+        <module name="dt-release" />
+        <module name="dt-remote-config-builder-api" />
+        <module name="dt-remote-config-builder-impl" />
+        <module name="dt-remote-invoker-api" />
+        <module name="dt-remote-invoker-web" />
+        <module name="dt-reservationmanager-api" />
+        <module name="dt-reservationmanager-impl" />
+        <module name="dt-reservationmgr-delegate-api" />
+        <module name="dt-reservationmgr-delegate-impl" />
+        <module name="dt-reservationmgr-mbean-impl" />
+        <module name="dt-resourcemgr-api" />
+        <module name="dt-resourcemgr-impl" />
+        <module name="dt-rest-sample-client" />
+        <module name="dt-rest-war" />
+        <module name="dt-scheduler" />
+        <module name="dt-service-discovery-ear" />
+        <module name="dt-service-location-manager-mbean-api" />
+        <module name="dt-service-location-manager-mbean-impl" />
+        <module name="dt-service-locator-web" />
+        <module name="dt-service-locator-web-client" />
+        <module name="dt-service-locator-web-core" />
+        <module name="dt-service-provider-node-ear" />
+        <module name="dt-service-web" />
+        <module name="dt-socks-proxy" />
+        <module name="dt-sp-fabric-delegate" />
+        <module name="dt-sp-fabric-delegate-ejb-api" />
+        <module name="dt-sp-fabric-delegate-ejb-impl" />
+        <module name="dt-sp-fabric-delegate-impl" />
+        <module name="dt-sp-fabric-delegate-ws-api" />
+        <module name="dt-sp-fabric-delegate-ws-impl" />
+        <module name="dt-sp-fabric-delegate-ws-war" />
+        <module name="dt-storagemanager-api" />
+        <module name="dt-storagemanager-datamodel" />
+        <module name="dt-storagemanager-impl" />
+        <module name="dt-tenant-node-ear" />
+        <module name="dt-test" />
+        <module name="dt-transitserver-mbean-api" />
+        <module name="dt-transitserver-mbean-impl" />
+        <module name="dt-upgrade" />
+        <module name="dt-user-portal" />
+        <module name="dt-util" />
+        <module name="dt-view-client-html5" />
+        <module name="dt-vmgr-advertiser-mbean" />
+        <module name="dt-vmgr-dao-api" />
+        <module name="dt-vmgr-dao-impl" />
+        <module name="dt-vmgr-datamodel" />
+        <module name="dt-vmgr-datastore" />
+        <module name="dt-vmgr-ear" />
+        <module name="dt-vmgr-ejb-api" />
+        <module name="dt-vmgr-ejb-impl" />
+        <module name="dt-vmgr-mbean-api" />
+        <module name="dt-vmgr-mbean-impl" />
+        <module name="dt-vmgr-messaging-war" />
+        <module name="dt-vmgr-security-mbean" />
+        <module name="dt-vmgr-service-ejb-api" />
+        <module name="dt-vmgr-service-ejb-impl" />
+        <module name="dt-vmgr-sharedobject" />
+        <module name="dt-vmgr-util" />
+        <module name="dt-vmgr-ws-api" />
+        <module name="dt-vmgr-ws-client" />
+        <module name="dt-vmgr-ws-impl" />
+        <module name="dt-vmgr-ws-war" />
+        <module name="dt-vsc-client" />
+        <module name="dt-ws-util" />
+        <module name="dt-wss-agent-api" />
+        <module name="dt-wss-agent-web" />
+        <module name="fuzzy-wight" />
+        <module name="rest-assured-examples-webapp" />
+        <module name="sar-plugin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="augusta" target="1.6" />
+      <module name="container-plugin" target="1.6" />
+      <module name="dt-active-directory" target="1.6" />
+      <module name="dt-active-directory-access" target="1.6" />
+      <module name="dt-active-directory-refresh" target="1.6" />
+      <module name="dt-active-directory-refresh-delegate" target="1.6" />
+      <module name="dt-active-directory-refresh-service-mbean-api" target="1.6" />
+      <module name="dt-active-directory-refresh-service-mbean-impl" target="1.6" />
+      <module name="dt-admin" target="1.6" />
+      <module name="dt-admin-impl" target="1.6" />
+      <module name="dt-admin-web" target="1.6" />
+      <module name="dt-agent-communicator" target="1.6" />
+      <module name="dt-agent-communicator-common" target="1.6" />
+      <module name="dt-agent-communicator-dao" target="1.6" />
+      <module name="dt-agent-communicator-dao-api" target="1.6" />
+      <module name="dt-agent-communicator-dao-impl" target="1.6" />
+      <module name="dt-agent-downstream-communicator" target="1.6" />
+      <module name="dt-agent-downstream-communicator-api" target="1.6" />
+      <module name="dt-agent-downstream-communicator-mcast-impl" target="1.6" />
+      <module name="dt-agent-downstream-communicator-tcp-impl" target="1.6" />
+      <module name="dt-agent-upstream-communicator" target="1.6" />
+      <module name="dt-agent-upstream-communicator-api" target="1.6" />
+      <module name="dt-agent-upstream-communicator-udp-impl" target="1.6" />
+      <module name="dt-aggregator" target="1.6" />
+      <module name="dt-aggregator-ejb-api" target="1.6" />
+      <module name="dt-aggregator-ejb-impl" target="1.6" />
+      <module name="dt-aggregator-security-mbean" target="1.6" />
+      <module name="dt-allocator" target="1.6" />
+      <module name="dt-allocator-api" target="1.6" />
+      <module name="dt-allocator-ejb-api" target="1.6" />
+      <module name="dt-allocator-ejb-impl" target="1.6" />
+      <module name="dt-allocator-impl" target="1.6" />
+      <module name="dt-authentication" target="1.6" />
+      <module name="dt-authentication-mgr-api" target="1.6" />
+      <module name="dt-authentication-mgr-common" target="1.6" />
+      <module name="dt-bindings" target="1.6" />
+      <module name="dt-blast-html5" target="1.6" />
+      <module name="dt-bootstrap-ws-war" target="1.6" />
+      <module name="dt-cache" target="1.6" />
+      <module name="dt-cim" target="1.6" />
+      <module name="dt-cim-ws" target="1.6" />
+      <module name="dt-client-desktop-allocator" target="1.6" />
+      <module name="dt-client-desktop-allocator-api" target="1.6" />
+      <module name="dt-client-desktop-allocator-impl" target="1.6" />
+      <module name="dt-client-login-mgr" target="1.6" />
+      <module name="dt-client-login-mgr-api" target="1.6" />
+      <module name="dt-client-login-mgr-impl" target="1.6" />
+      <module name="dt-collector" target="1.6" />
+      <module name="dt-collector-api" target="1.6" />
+      <module name="dt-collector-delegate" target="1.6" />
+      <module name="dt-collector-delegate-api" target="1.6" />
+      <module name="dt-collector-delegate-ejb-api" target="1.6" />
+      <module name="dt-collector-delegate-ejb-impl" target="1.6" />
+      <module name="dt-collector-delegate-impl" target="1.6" />
+      <module name="dt-collector-delegate-mbean-api" target="1.6" />
+      <module name="dt-collector-delegate-mbean-impl" target="1.6" />
+      <module name="dt-collector-impl" target="1.6" />
+      <module name="dt-collector-war" target="1.6" />
+      <module name="dt-common" target="1.6" />
+      <module name="dt-common-dao" target="1.6" />
+      <module name="dt-common-data-model" target="1.6" />
+      <module name="dt-component-location-manager" target="1.6" />
+      <module name="dt-compression-filter" target="1.6" />
+      <module name="dt-core" target="1.6" />
+      <module name="dt-core-web" target="1.6" />
+      <module name="dt-database" target="1.6" />
+      <module name="dt-database-aop" target="1.6" />
+      <module name="dt-database-dao" target="1.6" />
+      <module name="dt-database-dao-api" target="1.6" />
+      <module name="dt-database-dao-impl" target="1.6" />
+      <module name="dt-database-delegate" target="1.6" />
+      <module name="dt-database-delegate-api" target="1.6" />
+      <module name="dt-database-delegate-impl" target="1.6" />
+      <module name="dt-database-model" target="1.6" />
+      <module name="dt-delegate-provider-internal" target="1.6" />
+      <module name="dt-delegate-provider-remote" target="1.6" />
+      <module name="dt-deployer" target="1.6" />
+      <module name="dt-deployer-ear" target="1.6" />
+      <module name="dt-deployer-mbean" target="1.6" />
+      <module name="dt-desktop-eventmgr" target="1.6" />
+      <module name="dt-desktop-eventmgr-api" target="1.6" />
+      <module name="dt-desktop-eventmgr-impl" target="1.6" />
+      <module name="dt-desktopfactory-api" target="1.6" />
+      <module name="dt-desktopfactory-impl" target="1.6" />
+      <module name="dt-desktopmgr-api" target="1.6" />
+      <module name="dt-desktopmgr-impl" target="1.6" />
+      <module name="dt-directory-server-api" target="1.6" />
+      <module name="dt-directory-server-impl" target="1.6" />
+      <module name="dt-element-model" target="1.6" />
+      <module name="dt-emgr" target="1.6" />
+      <module name="dt-emgr-deployer-service-mbean-api" target="1.6" />
+      <module name="dt-emgr-deployer-service-mbean-impl" target="1.6" />
+      <module name="dt-emgr-ear" target="1.6" />
+      <module name="dt-emgr-jar" target="1.6" />
+      <module name="dt-emgr-main" target="1.6" />
+      <module name="dt-emgr-main-api" target="1.6" />
+      <module name="dt-emgr-main-impl" target="1.6" />
+      <module name="dt-emgr-messaging-war" target="1.6" />
+      <module name="dt-emgr-model-api" target="1.6" />
+      <module name="dt-emgr-model-impl" target="1.6" />
+      <module name="dt-emgr-persistence" target="1.6" />
+      <module name="dt-emgr-policymgr" target="1.6" />
+      <module name="dt-emgr-policymgr-api" target="1.6" />
+      <module name="dt-emgr-policymgr-impl" target="1.6" />
+      <module name="dt-emgr-registration" target="1.6" />
+      <module name="dt-emgr-registration-service-mbean-api" target="1.6" />
+      <module name="dt-emgr-registration-service-mbean-impl" target="1.6" />
+      <module name="dt-emgr-security-mbean" target="1.6" />
+      <module name="dt-emgr-ws" target="1.6" />
+      <module name="dt-emgr-ws-api" target="1.6" />
+      <module name="dt-emgr-ws-client" target="1.6" />
+      <module name="dt-emgr-ws-impl" target="1.6" />
+      <module name="dt-event-sender-ejb-api" target="1.6" />
+      <module name="dt-event-sender-ejb-impl" target="1.6" />
+      <module name="dt-eventmgr" target="1.6" />
+      <module name="dt-eventmgr-client-api" target="1.6" />
+      <module name="dt-eventmgr-server" target="1.6" />
+      <module name="dt-fabric" target="1.6" />
+      <module name="dt-fabric-access-api" target="1.6" />
+      <module name="dt-fabric-access-mbean-api" target="1.6" />
+      <module name="dt-fabric-access-mbean-impl" target="1.6" />
+      <module name="dt-fabric-aop" target="1.6" />
+      <module name="dt-fabric-dao" target="1.6" />
+      <module name="dt-fabric-dao-api" target="1.6" />
+      <module name="dt-fabric-dao-impl" target="1.6" />
+      <module name="dt-fabric-data-model" target="1.6" />
+      <module name="dt-fabric-delegate" target="1.6" />
+      <module name="dt-fabric-delegate-ejb-api" target="1.6" />
+      <module name="dt-fabric-delegate-ejb-impl" target="1.6" />
+      <module name="dt-fabric-delegate-impl" target="1.6" />
+      <module name="dt-fabric-delegate-impl-test" target="1.6" />
+      <module name="dt-fabric-mapping-mgr" target="1.6" />
+      <module name="dt-fabric-mapping-mgr-api" target="1.6" />
+      <module name="dt-fabric-mapping-mgr-impl" target="1.6" />
+      <module name="dt-fabric-node-inventory" target="1.6" />
+      <module name="dt-fabric-node-security-mbean" target="1.6" />
+      <module name="dt-fabric-persistence" target="1.6" />
+      <module name="dt-fabric-userpattern-ejb-api" target="1.6" />
+      <module name="dt-fabric-userpattern-ejb-impl" target="1.6" />
+      <module name="dt-fabric-vmgr-ws" target="1.6" />
+      <module name="dt-fabric-vmgr-ws-api" target="1.6" />
+      <module name="dt-fabric-vmgr-ws-impl" target="1.6" />
+      <module name="dt-fabric-ws" target="1.6" />
+      <module name="dt-fabric-ws-api" target="1.6" />
+      <module name="dt-fabric-ws-impl" target="1.6" />
+      <module name="dt-fabric-ws-security-mbean" target="1.6" />
+      <module name="dt-fabric-ws-security-mbean-remote" target="1.6" />
+      <module name="dt-fabric-ws-war" target="1.6" />
+      <module name="dt-federation" target="1.6" />
+      <module name="dt-hostmgr-sim" target="1.6" />
+      <module name="dt-hostmgr-sim-dao-api" target="1.6" />
+      <module name="dt-hostmgr-sim-dao-impl" target="1.6" />
+      <module name="dt-hostmgr-sim-datamodel" target="1.6" />
+      <module name="dt-hostmgr-sim-ear" target="1.6" />
+      <module name="dt-hostmgr-sim-mbean-api" target="1.6" />
+      <module name="dt-hostmgr-sim-mbean-impl" target="1.6" />
+      <module name="dt-hostmgr-sim-security-impl" target="1.6" />
+      <module name="dt-hostmgr-sim-security-mbean" target="1.6" />
+      <module name="dt-hostmgr-sim-service" target="1.6" />
+      <module name="dt-hostmgr-sim-service-api" target="1.6" />
+      <module name="dt-hostmgr-sim-service-impl" target="1.6" />
+      <module name="dt-hostmgr-sim-ws" target="1.6" />
+      <module name="dt-hostmgr-sim-ws-api" target="1.6" />
+      <module name="dt-hostmgr-sim-ws-client" target="1.6" />
+      <module name="dt-hostmgr-sim-ws-war" target="1.6" />
+      <module name="dt-hypervisormgr-api" target="1.6" />
+      <module name="dt-hypervisormgr-common" target="1.6" />
+      <module name="dt-hypervisormgr-impl" target="1.6" />
+      <module name="dt-install" target="1.6" />
+      <module name="dt-installmanager-api" target="1.6" />
+      <module name="dt-installmanager-dao-impl" target="1.6" />
+      <module name="dt-installmanager-data-model" target="1.6" />
+      <module name="dt-installmanager-impl" target="1.6" />
+      <module name="dt-installmanager-security-mbean" target="1.6" />
+      <module name="dt-installmanager-service-mbean-api" target="1.6" />
+      <module name="dt-installmanager-service-mbean-impl" target="1.6" />
+      <module name="dt-java-bindings" target="1.6" />
+      <module name="dt-logger" target="1.6" />
+      <module name="dt-messaging" target="1.6" />
+      <module name="dt-messaging-api" target="1.6" />
+      <module name="dt-messaging-impl" target="1.6" />
+      <module name="dt-model-api" target="1.6" />
+      <module name="dt-model-impl" target="1.6" />
+      <module name="dt-monitoring-api" target="1.6" />
+      <module name="dt-monitoring-impl" target="1.6" />
+      <module name="dt-monitoring-war" target="1.6" />
+      <module name="dt-naming-context" target="1.6" />
+      <module name="dt-policymgr" target="1.6" />
+      <module name="dt-policymgr-api" target="1.6" />
+      <module name="dt-policymgr-delegate" target="1.6" />
+      <module name="dt-policymgr-delegate-ejb-api" target="1.6" />
+      <module name="dt-policymgr-delegate-ejb-impl" target="1.6" />
+      <module name="dt-policymgr-delegate-impl" target="1.6" />
+      <module name="dt-policymgr-delegate-ws" target="1.6" />
+      <module name="dt-policymgr-delegate-ws-api" target="1.6" />
+      <module name="dt-policymgr-delegate-ws-impl" target="1.6" />
+      <module name="dt-policymgr-delegate-ws-war" target="1.6" />
+      <module name="dt-poolmgr" target="1.6" />
+      <module name="dt-poolmgr-delegate" target="1.6" />
+      <module name="dt-poolmgr-delegate-api" target="1.6" />
+      <module name="dt-poolmgr-delegate-ejb-api" target="1.6" />
+      <module name="dt-poolmgr-delegate-ejb-impl" target="1.6" />
+      <module name="dt-poolmgr-delegate-impl" target="1.6" />
+      <module name="dt-poolmgr-delegate-ws" target="1.6" />
+      <module name="dt-poolmgr-delegate-ws-api" target="1.6" />
+      <module name="dt-poolmgr-delegate-ws-impl" target="1.6" />
+      <module name="dt-poolmgr-delegate-ws-war" target="1.6" />
+      <module name="dt-poolmgr-mbean-api" target="1.6" />
+      <module name="dt-poolmgr-mbean-impl" target="1.6" />
+      <module name="dt-poolmgr-ws" target="1.6" />
+      <module name="dt-poolmgr-ws-api" target="1.6" />
+      <module name="dt-poolmgr-ws-client" target="1.6" />
+      <module name="dt-poolmgr-ws-impl" target="1.6" />
+      <module name="dt-poolmgr-ws-war" target="1.6" />
+      <module name="dt-provision" target="1.6" />
+      <module name="dt-provision-api" target="1.6" />
+      <module name="dt-provision-impl" target="1.6" />
+      <module name="dt-public-ws" target="1.6" />
+      <module name="dt-public-ws-common" target="1.6" />
+      <module name="dt-public-ws-user" target="1.6" />
+      <module name="dt-public-ws-user-api" target="1.6" />
+      <module name="dt-public-ws-user-impl" target="1.6" />
+      <module name="dt-public-ws-user-war" target="1.6" />
+      <module name="dt-quota" target="1.6" />
+      <module name="dt-quota-mgr-api" target="1.6" />
+      <module name="dt-quota-mgr-common" target="1.6" />
+      <module name="dt-release" target="1.6" />
+      <module name="dt-remote-config-builder" target="1.6" />
+      <module name="dt-remote-config-builder-api" target="1.6" />
+      <module name="dt-remote-config-builder-impl" target="1.6" />
+      <module name="dt-remote-invoker" target="1.6" />
+      <module name="dt-remote-invoker-api" target="1.6" />
+      <module name="dt-remote-invoker-web" target="1.6" />
+      <module name="dt-reservation" target="1.6" />
+      <module name="dt-reservationmanager-api" target="1.6" />
+      <module name="dt-reservationmanager-impl" target="1.6" />
+      <module name="dt-reservationmgr-delegate" target="1.6" />
+      <module name="dt-reservationmgr-delegate-api" target="1.6" />
+      <module name="dt-reservationmgr-delegate-impl" target="1.6" />
+      <module name="dt-reservationmgr-mbean-impl" target="1.6" />
+      <module name="dt-resourcemgr-api" target="1.6" />
+      <module name="dt-resourcemgr-impl" target="1.6" />
+      <module name="dt-rest" target="1.6" />
+      <module name="dt-rest-client" target="1.6" />
+      <module name="dt-rest-sample-client" target="1.6" />
+      <module name="dt-rest-war" target="1.6" />
+      <module name="dt-scheduler" target="1.6" />
+      <module name="dt-service-discovery" target="1.6" />
+      <module name="dt-service-discovery-ear" target="1.6" />
+      <module name="dt-service-location-manager-mbean-api" target="1.6" />
+      <module name="dt-service-location-manager-mbean-impl" target="1.6" />
+      <module name="dt-service-locator-web" target="1.6" />
+      <module name="dt-service-locator-web-client" target="1.6" />
+      <module name="dt-service-locator-web-core" target="1.6" />
+      <module name="dt-service-provider-node-ear" target="1.6" />
+      <module name="dt-service-web" target="1.6" />
+      <module name="dt-simulator" target="1.6" />
+      <module name="dt-socks-proxy" target="1.6" />
+      <module name="dt-sp-fabric-delegate" target="1.6" />
+      <module name="dt-sp-fabric-delegate-ejb-api" target="1.6" />
+      <module name="dt-sp-fabric-delegate-ejb-impl" target="1.6" />
+      <module name="dt-sp-fabric-delegate-impl" target="1.6" />
+      <module name="dt-sp-fabric-delegate-ws" target="1.6" />
+      <module name="dt-sp-fabric-delegate-ws-api" target="1.6" />
+      <module name="dt-sp-fabric-delegate-ws-impl" target="1.6" />
+      <module name="dt-sp-fabric-delegate-ws-war" target="1.6" />
+      <module name="dt-storagemanager-api" target="1.6" />
+      <module name="dt-storagemanager-datamodel" target="1.6" />
+      <module name="dt-storagemanager-impl" target="1.6" />
+      <module name="dt-tenant-node-ear" target="1.6" />
+      <module name="dt-test" target="1.6" />
+      <module name="dt-transitserver" target="1.6" />
+      <module name="dt-transitserver-mbean-api" target="1.6" />
+      <module name="dt-transitserver-mbean-impl" target="1.6" />
+      <module name="dt-upgrade" target="1.6" />
+      <module name="dt-user-portal" target="1.6" />
+      <module name="dt-util" target="1.6" />
+      <module name="dt-view-client-html5" target="1.6" />
+      <module name="dt-vmgr" target="1.6" />
+      <module name="dt-vmgr-advertiser-mbean" target="1.6" />
+      <module name="dt-vmgr-dao-api" target="1.6" />
+      <module name="dt-vmgr-dao-impl" target="1.6" />
+      <module name="dt-vmgr-datamodel" target="1.6" />
+      <module name="dt-vmgr-datastore" target="1.6" />
+      <module name="dt-vmgr-ear" target="1.6" />
+      <module name="dt-vmgr-ejb-api" target="1.6" />
+      <module name="dt-vmgr-ejb-impl" target="1.6" />
+      <module name="dt-vmgr-mbean-api" target="1.6" />
+      <module name="dt-vmgr-mbean-impl" target="1.6" />
+      <module name="dt-vmgr-messaging-war" target="1.6" />
+      <module name="dt-vmgr-security-mbean" target="1.6" />
+      <module name="dt-vmgr-service-ejb-api" target="1.6" />
+      <module name="dt-vmgr-service-ejb-impl" target="1.6" />
+      <module name="dt-vmgr-sharedobject" target="1.6" />
+      <module name="dt-vmgr-util" target="1.6" />
+      <module name="dt-vmgr-ws" target="1.6" />
+      <module name="dt-vmgr-ws-api" target="1.6" />
+      <module name="dt-vmgr-ws-client" target="1.6" />
+      <module name="dt-vmgr-ws-impl" target="1.6" />
+      <module name="dt-vmgr-ws-war" target="1.6" />
+      <module name="dt-vsc-client" target="1.6" />
+      <module name="dt-ws-util" target="1.6" />
+      <module name="dt-wss-agent" target="1.6" />
+      <module name="dt-wss-agent-api" target="1.6" />
+      <module name="dt-wss-agent-web" target="1.6" />
+      <module name="maven2-plugin" target="1.6" />
+      <module name="sar-plugin" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
+

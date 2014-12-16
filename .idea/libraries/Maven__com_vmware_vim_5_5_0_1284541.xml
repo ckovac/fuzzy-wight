@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.vmware:vim:5.5.0-1284541">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vmware/vim/5.5.0-1284541/vim-5.5.0-1284541.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vmware/vim/5.5.0-1284541/vim-5.5.0-1284541-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/vmware/vim/5.5.0-1284541/vim-5.5.0-1284541-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

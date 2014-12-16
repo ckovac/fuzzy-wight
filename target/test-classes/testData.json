@@ -1,0 +1,11 @@
+{
+  "environment": {
+    "baseURI": "https://10.31.15.81",
+    "basePath": "/dt-rest/v100"
+  },
+  "user": {
+    "username": "tenantadmin",
+    "password": "@@dtlab1",
+    "domain": "QA-TENANTB"
+  }
+}

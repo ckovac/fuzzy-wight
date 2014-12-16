@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.rsa:rsa-auth-api-java-sdk:8.1.1.466">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/rsa/rsa-auth-api-java-sdk/8.1.1.466/rsa-auth-api-java-sdk-8.1.1.466.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/rsa/rsa-auth-api-java-sdk/8.1.1.466/rsa-auth-api-java-sdk-8.1.1.466-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/rsa/rsa-auth-api-java-sdk/8.1.1.466/rsa-auth-api-java-sdk-8.1.1.466-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
