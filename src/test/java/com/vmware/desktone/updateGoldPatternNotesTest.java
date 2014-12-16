@@ -26,15 +26,6 @@ public class updateGoldPatternNotesTest extends TestData {
         userCookie=LoginUser.loginUser();
     }
 
-  @Test
-    public void getGoldPatterns() {
-
-      given().header("Accept", "application/json")
-              .cookie(userCookie).when().get("/infrastructure/manager/patterns?type=G").then().
-              body("name[0]", containsString("ars-win-81-64b"));
-
-    }
-
     @Test
     public void getGoldPatternById(){
         // Get Gold Pattern by Id and create JSON to update Gold Pattern
