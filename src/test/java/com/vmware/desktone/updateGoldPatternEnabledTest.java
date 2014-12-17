@@ -16,7 +16,6 @@ import static org.hamcrest.Matchers.is;
 public class updateGoldPatternEnabledTest {
 
     String goldPatternById;
-    JSONObject jsonObject;
     com.jayway.restassured.response.Cookie cookie;
     private String str;
     private Cookie userCookie;

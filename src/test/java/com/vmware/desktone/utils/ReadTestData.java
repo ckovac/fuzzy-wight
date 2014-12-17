@@ -8,10 +8,10 @@ import java.io.IOException;
 import java.io.InputStream;
 
 
-public class TestData {
+public class ReadTestData {
 
  public static JSONObject getTestDataFile() throws IOException{
-     ClassLoader cl = TestData.class.getClassLoader();
+     ClassLoader cl = ReadTestData.class.getClassLoader();
      InputStream is = cl.getResourceAsStream("testData.json");
      String data = IOUtils.toString(is);
      JSONObject env = (JSONObject) JSONSerializer.toJSON(data);

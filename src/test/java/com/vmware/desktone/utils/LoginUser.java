@@ -7,7 +7,7 @@ import net.sf.json.JSONObject;
 import java.io.IOException;
 
 import static com.jayway.restassured.RestAssured.post;
-import static com.vmware.desktone.utils.TestData.getTestDataFile;
+import static com.vmware.desktone.utils.ReadTestData.*;
 
 
 /**

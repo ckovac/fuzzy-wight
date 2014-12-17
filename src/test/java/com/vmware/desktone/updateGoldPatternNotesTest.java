@@ -2,7 +2,7 @@ package com.vmware.desktone;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Cookie;
-import com.vmware.desktone.utils.TestData;
+import com.vmware.desktone.utils.ReadTestData;
 import org.testng.annotations.*;
 import java.io.IOException;
 
@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.*;
 import com.vmware.desktone.utils.*;
 
 
-public class updateGoldPatternNotesTest extends TestData {
+public class updateGoldPatternNotesTest extends ReadTestData {
 
     String goldPatternById;
     JSONObject jsonObject;
