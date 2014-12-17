@@ -1,4 +1,5 @@
 target/*
-.idea/*
-*.idea
+*.idea/*
+.DS_Store
+*.xml
 *.iml

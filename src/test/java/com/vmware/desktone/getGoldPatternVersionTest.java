@@ -5,6 +5,7 @@ import com.jayway.restassured.response.Cookie;
 import com.jayway.restassured.response.Response;
 import com.vmware.desktone.utils.LoginUser;
 import net.sf.json.JSONObject;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -21,6 +22,7 @@ public class getGoldPatternVersionTest {
     @BeforeClass
     public void loginAsUser() throws IOException {
         userCookie= LoginUser.loginUser();
+        System.out.println("Starting Tests in : "+getClass().toString()+"\n");
     }
 
     @Test
@@ -30,7 +32,7 @@ public class getGoldPatternVersionTest {
                 .and().cookie(userCookie)
                 .when().get("/infrastructure/pattern/gold/G.1001.2").asString();
 
-        System.out.println(goldPatternById);
+        System.out.println("Got Gold Pattern: \n"+goldPatternById+"\n");
     }
 
     @Test
@@ -41,7 +43,12 @@ public class getGoldPatternVersionTest {
                 .when().get("/infrastructure/pattern/gold/G.1001.2")
                 .then().body("version", greaterThanOrEqualTo(1000));
 
-        System.out.println("Validated that id value not updated \n");
+        System.out.println("Validated that version field has value greater than 1000. \n");
 
+    }
+
+    @AfterClass
+    public void completedTest(){
+        System.out.println("Completed Tests in : "+getClass().toString());
     }
 }

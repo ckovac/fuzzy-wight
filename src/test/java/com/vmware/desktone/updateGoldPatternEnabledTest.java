@@ -3,6 +3,7 @@ package com.vmware.desktone;
 import com.jayway.restassured.response.Cookie;
 import com.vmware.desktone.utils.LoginUser;
 import net.sf.json.JSONObject;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -23,6 +24,7 @@ public class updateGoldPatternEnabledTest {
     @BeforeClass
     public void loginAsUser() throws IOException {
         userCookie= LoginUser.loginUser();
+        System.out.println("Starting Tests in : "+getClass().toString()+"\n");
     }
 
     @Test
@@ -30,6 +32,8 @@ public class updateGoldPatternEnabledTest {
         given().header("Accept", "application/json")
                 .cookie(userCookie).when().get("/infrastructure/manager/patterns?type=G").then().
                 body("name[2]", containsString("ars-win-81-64b"));
+
+        System.out.println("Validated presence of Gold Pattern with Id ars-win-81-64b \n");
     }
 
     @Test
@@ -39,7 +43,7 @@ public class updateGoldPatternEnabledTest {
                 .and().cookie(userCookie)
                 .when().get("/infrastructure/pattern/gold/G.1001.2").asString();
 
-        System.out.println("Get Gold Pattern by ID \n");
+        System.out.println("Got Gold Pattern: \n"+goldPatternById+"\n");
     }
 
     @Test
@@ -56,6 +60,8 @@ public class updateGoldPatternEnabledTest {
                 when().put("/infrastructure/pattern/gold/G.1001.2/update").
                 then().statusCode(200);
 
+        System.out.println("Completed PUT request to Enable Flag \n");
+
     }
 
     @Test
@@ -67,5 +73,10 @@ public class updateGoldPatternEnabledTest {
                 .then().body("enabled",is(true));
 
         System.out.println("Validated that enabled flag updated with value true. \n ");
+    }
+
+    @AfterClass
+    public void completedTest(){
+        System.out.println("Completed Tests in : "+getClass().toString()+"\n");
     }
 }

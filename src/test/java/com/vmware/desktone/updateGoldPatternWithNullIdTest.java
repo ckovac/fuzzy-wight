@@ -4,6 +4,7 @@ import com.jayway.restassured.response.Cookie;
 import com.vmware.desktone.utils.LoginUser;
 import net.sf.json.JSONObject;
 import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -13,7 +14,7 @@ import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.containsString;
 
 
-public class updateGoldPatternWithNullId {
+public class updateGoldPatternWithNullIdTest {
     String goldPatternById;
     JSONObject jsonObject;
     com.jayway.restassured.response.Cookie cookie;
@@ -23,6 +24,7 @@ public class updateGoldPatternWithNullId {
     @BeforeClass
     public void loginAsUser() throws IOException {
         userCookie= LoginUser.loginUser();
+        System.out.println("Starting Tests in : "+getClass().toString()+"\n");
     }
 
     @Test
@@ -61,5 +63,10 @@ public class updateGoldPatternWithNullId {
 
         System.out.println("Validated that id value not updated \n");
 
+    }
+
+    @AfterClass
+    public void completedTest(){
+        System.out.println("Completed Tests in : "+getClass().toString()+"\n");
     }
 }

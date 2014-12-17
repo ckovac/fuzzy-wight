@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.*;
 import com.vmware.desktone.utils.*;
 
 
-public class updateGoldPatternNotesTest extends ReadTestData {
+public class updateGoldPatternNotesTest {
 
     String goldPatternById;
     JSONObject jsonObject;
@@ -24,6 +24,7 @@ public class updateGoldPatternNotesTest extends ReadTestData {
     @BeforeClass
     public void loginAsUser() throws IOException {
         userCookie=LoginUser.loginUser();
+        System.out.println("Starting Tests in : "+getClass().toString()+"\n");
     }
 
     @Test
@@ -56,5 +57,10 @@ public class updateGoldPatternNotesTest extends ReadTestData {
        .when().get("/infrastructure/pattern/gold/G.1001.2")
        .then().body("notes", containsString("test5"));
 
+    }
+
+    @AfterClass
+    public void completedTest(){
+        System.out.println("Completed Tests in : "+getClass().toString()+"\n");
     }
 }
