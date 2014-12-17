@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 import static com.jayway.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 
 
 public class updateGoldPatternEnabledTest {
@@ -31,7 +30,7 @@ public class updateGoldPatternEnabledTest {
     public void getGoldPatterns() {
         given().header("Accept", "application/json")
                 .cookie(userCookie).when().get("/infrastructure/manager/patterns?type=G").then().
-                body("name[2]", containsString("ars-win-81-64b"));
+                body("name", hasItem("ars-win-81-64b"));
 
         System.out.println("Validated presence of Gold Pattern with Id ars-win-81-64b \n");
     }
