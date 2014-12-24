@@ -1,9 +1,8 @@
 package com.vmware.desktone;
 
-import com.jayway.restassured.response.Cookie;
+import com.jayway.restassured.specification.RequestSpecification;
 import com.vmware.desktone.utils.LoginUser;
 import net.sf.json.JSONObject;
-import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -16,22 +15,21 @@ import static org.hamcrest.Matchers.containsString;
 
 public class updateGoldPatternWithNullIdTest {
     String goldPatternById;
-    JSONObject jsonObject;
     com.jayway.restassured.response.Cookie cookie;
     private String str;
-    private Cookie userCookie;
+    private RequestSpecification authToken;
 
     @BeforeClass
     public void loginAsUser() throws IOException {
-        userCookie= LoginUser.loginUser();
+        authToken = LoginUser.loginUser();
         System.out.println("Starting Tests in : "+getClass().toString()+"\n");
     }
 
     @Test
     public void getGoldPatternById(){
         // Get Gold Pattern by Id and create JSON to update Gold Pattern
-        goldPatternById = given().header("Accept", "application/json")
-                .and().cookie(userCookie)
+        goldPatternById = given(authToken)
+                .and()
                 .when().get("/infrastructure/pattern/gold/G.1001.2").asString();
     }
 
@@ -44,7 +42,7 @@ public class updateGoldPatternWithNullIdTest {
 
         System.out.println(updateNotes + "\n");
 
-        given().header("Content-Type", "application/json").accept("application/json").cookie(userCookie).
+        given(authToken).header("Content-Type", "application/json").
                 and().body(updateNotes.toString()).
                 when().put("/infrastructure/pattern/gold/G.1001.2/update").
                 then().statusCode(500).
@@ -56,8 +54,7 @@ public class updateGoldPatternWithNullIdTest {
     @Test
     public void validateNotesForGoldPattern(){
 
-        given().header("Accept", "application/json")
-                .and().cookie(userCookie)
+        given(authToken)
                 .when().get("/infrastructure/pattern/gold/G.1001.2")
                 .then().body("id", containsString("G.1001.2"));
 

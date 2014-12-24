@@ -1,12 +1,15 @@
 package com.vmware.desktone.utils;
 
 import com.jayway.restassured.RestAssured;
+import com.jayway.restassured.builder.RequestSpecBuilder;
 import com.jayway.restassured.response.Cookie;
+import com.jayway.restassured.specification.RequestSpecification;
 import net.sf.json.JSONObject;
 
 import java.io.IOException;
 
 import static com.jayway.restassured.RestAssured.post;
+import static com.jayway.restassured.RestAssured.with;
 import static com.vmware.desktone.utils.ReadTestData.*;
 
 
@@ -15,30 +18,23 @@ import static com.vmware.desktone.utils.ReadTestData.*;
  */
 public class LoginUser {
 
-    static Cookie cookie;
-
-    public static Cookie loginUser() throws IOException {
+    public static RequestSpecification loginUser() throws IOException {
         JSONObject testData = getTestDataFile();
 
-        JSONObject getEnvironment = (JSONObject)testData.get("environment");
-        JSONObject getUser = (JSONObject)testData.get("user");
-
-        String uri = getEnvironment.get("baseURI").toString();
-        String path = getEnvironment.get("basePath").toString();
-
-        String user = getUser.get("username").toString();
-        String password = getUser.get("password").toString();
-        String domain = getUser.get("domain").toString();
-
-        RestAssured.baseURI = uri;
-        RestAssured.basePath = path;
+        RestAssured.baseURI = testData.getJSONObject("environment").get("baseURI").toString();
+        RestAssured.basePath = testData.getJSONObject("environment").get("basePath").toString();
 
         RestAssured.config.getHttpClientConfig().reuseHttpClientInstance();
         // RestAssured.config.getSSLConfig().port(80);
         RestAssured.useRelaxedHTTPSValidation();
 
-        cookie= post("/system/login?domain="+domain+"&user="+user+"&pw="+password).getDetailedCookie("JSESSIONID");
+        String user =  testData.getJSONObject("user").get("username").toString();
+        String password = testData.getJSONObject("user").get("password").toString();
+        String domain = testData.getJSONObject("user").get("domain").toString();
 
-        return cookie;
+        String auth= post("/system/login?domain=" + domain + "&user=" + user + "&pw=" + password).getHeader("Authorization");
+
+        RequestSpecification requestSpec = with().headers("Authorization", auth, "Accept", "application/json");
+        return requestSpec;
     }
 }
