@@ -16,7 +16,7 @@ import java.io.IOException;
 import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class getDCForGoldPatternTest {
+public class getGoldPatternVMTest {
 
     RequestSpecification authToken;
 
@@ -30,8 +30,10 @@ public class getDCForGoldPatternTest {
     @Test
     public void getVMForGoldPatternTest() {
 
-        given(authToken).
-                when().get("/infrastructure/pattern/gold/G.1001.2/dcs").then().body("$", hasItem(hasEntry("frontNetworkId", "1013")));
+        given(authToken).log().ifValidationFails().
+                when().get("/infrastructure/pattern/gold/G.1001.2/vm").
+                then().body("name", hasToString("ars-win-81-64b"));
+
     }
 
     @AfterClass

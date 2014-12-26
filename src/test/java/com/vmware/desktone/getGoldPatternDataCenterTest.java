@@ -1,6 +1,10 @@
 package com.vmware.desktone;
 
+import com.github.fge.jsonschema.SchemaVersion;
+import com.github.fge.jsonschema.cfg.ValidationConfiguration;
+import com.github.fge.jsonschema.main.JsonSchemaFactory;
 import com.jayway.restassured.specification.RequestSpecification;
+import com.sun.media.sound.SoftAbstractResampler;
 import com.vmware.desktone.utils.LoginUser;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -10,11 +14,12 @@ import static org.hamcrest.Matchers.*;
 import java.io.IOException;
 
 import static com.jayway.restassured.RestAssured.given;
+import static org.hamcrest.MatcherAssert.assertThat;
 
-public class getPoolForGoldPatternTest {
+public class getGoldPatternDataCenterTest {
 
     RequestSpecification authToken;
-    String val;
+
 
     @BeforeClass
     public void loginAsUser() throws IOException {
@@ -25,9 +30,8 @@ public class getPoolForGoldPatternTest {
     @Test
     public void getVMForGoldPatternTest() {
 
-         given(authToken).
-                when().get("/infrastructure/pattern/gold/G.1001.2/pools").
-                then().body("[0].sessionBased", equalTo(false));
+        given(authToken).
+                when().get("/infrastructure/pattern/gold/G.1001.2/dcs").then().body("$", hasItem(hasEntry("frontNetworkId", "1013")));
     }
 
     @AfterClass
