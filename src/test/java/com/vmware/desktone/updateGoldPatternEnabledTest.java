@@ -31,7 +31,7 @@ public class updateGoldPatternEnabledTest {
         .when().get("/infrastructure/manager/patterns?type=G")
         .then().body("name", hasItem("ars-win-81-64b"));
 
-        System.out.println("Validated presence of Gold Pattern with Id ars-win-81-64b \n");
+        System.out.println("Validated presence of Gold Pattern with Name ars-win-81-64b \n");
     }
 
     @Test

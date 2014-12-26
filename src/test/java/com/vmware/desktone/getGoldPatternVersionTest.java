@@ -26,7 +26,6 @@ public class getGoldPatternVersionTest {
     public void getGoldPatternById(){
         // Get Gold Pattern by Id and create JSON to update Gold Pattern
         String goldPatternById = given(authToken)
-                .and()
                 .when().get("/infrastructure/pattern/gold/G.1001.2").asString();
 
         System.out.println("Got Gold Pattern: \n"+goldPatternById+"\n");
