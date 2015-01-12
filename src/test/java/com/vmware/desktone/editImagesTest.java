@@ -15,7 +15,7 @@ import java.io.IOException;
 import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class updateGoldPatternTest {
+public class editImagesTest {
 
     RequestSpecification authToken;
     JSONArray goldPatternJson;
@@ -30,7 +30,7 @@ public class updateGoldPatternTest {
 
         // Get all Gold Patterns and find id for Gold Pattern
         response = given(authToken).when().get("/infrastructure/manager/patterns?type=G").asString();
-        goldPatternJson = (JSONArray) JSONSerializer.toJSON(response);
+        goldPatternJson = (JSONArray) JSONSerializer.toJSON(response); //TODO: Refactor to use fromObject tp serialize into JSONArray.
 
         for (int i = 0; i < goldPatternJson.size(); i++) {
             JSONObject pools = (JSONObject) goldPatternJson.get(i);
