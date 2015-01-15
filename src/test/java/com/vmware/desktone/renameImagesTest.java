@@ -52,6 +52,7 @@ public class renameImagesTest {
         given(authToken).log().ifValidationFails().
                 when().put("/infrastructure/pattern/gold/G.1001.2/rename?name=ars-win-81-renamed").
                 then().statusCode(200);
+        // TODO: Move new and old image names.
     }
 
     @Test(dependsOnMethods = "renameImage")

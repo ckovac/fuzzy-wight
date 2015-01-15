@@ -99,7 +99,7 @@ public class editImagesTest {
                 .and()
                 .when().get("/infrastructure/pattern/gold/G.1001.2")
                 .then().body("notes", containsString("test5"));
-
+        /* TODO: Abstract value of notes to be updated in test data file*/
     }
 
     @Test(dependsOnMethods = "validateNotesForGoldPattern")

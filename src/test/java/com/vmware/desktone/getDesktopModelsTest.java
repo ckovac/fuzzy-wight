@@ -31,6 +31,7 @@ public class getDesktopModelsTest {
         given(authToken).
                 when().get("/infrastructure/manager/dcs").
                 then().body("$", hasItems(hasEntry("backBoneNetworkId", "4003")));
+        // TODO: Move out to test data file.
     }
 
     @Test
@@ -74,6 +75,7 @@ public class getDesktopModelsTest {
         given(authToken).
                 when().get("/infrastructure/manager/models").
                 then().body("name", hasItems("Normal", "Utility", "ars-DM2-win81", "ars-win-12-non-rds", "ars-win-12-rds", "ars-win-81-model"));
+        /* TODO: Abstract value of Desktop Models to be updated in test data file*/
     }
 
 

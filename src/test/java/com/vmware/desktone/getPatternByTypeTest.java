@@ -32,9 +32,6 @@ public class getPatternByTypeTest {
         given(authToken).
                 when().get("/infrastructure/manager/patterns?type=G").
                 then().body("id", hasItems("G.1001.2","G.1001.4"));
-
-        // "ars-Win2012-RDS-GP","ars-win-81-64b"
-
     }
 
     @Test
@@ -49,6 +46,7 @@ public class getPatternByTypeTest {
         given(authToken).
                 when().get("/infrastructure/manager/patterns?type=D").
                 then().body("id", hasItems("D.1001.4.1"));
+        //TODO: See if this assertion can be set to something else.
     }
 
     @AfterClass

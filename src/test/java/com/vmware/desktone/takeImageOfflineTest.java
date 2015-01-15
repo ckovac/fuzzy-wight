@@ -22,6 +22,7 @@ public class takeImageOfflineTest {
     String response;
     String patternId;
     private String goldPatternById;
+    String getVM;
 
     @BeforeClass
     public String getIdForGoldPattern() throws IOException {
@@ -35,12 +36,9 @@ public class takeImageOfflineTest {
         for (int i = 0; i < goldPatternArray.size(); i++) {
             JSONObject pools = (JSONObject) goldPatternArray.get(i);
 
-            if (pools.getString("name").equalsIgnoreCase("ars-win-81-64b")) {
+            if (pools.getString("name").equalsIgnoreCase("ars-Win-81-Ent-64b-GP")) {
                 patternId = pools.getString("id");
                 System.out.println("Found valid gold Pattern with id: " + patternId);
-            } else {
-                System.out.println("Could not find an expected Gold Pattern. Exiting Test");
-                break;
             }
         }
         return patternId;
@@ -69,21 +67,24 @@ public class takeImageOfflineTest {
                 then().statusCode(200);
     }
 
-    @Test
+    @Test(dependsOnMethods = "disableGoldPattern")
     public void getVMNameForGoldPatternTest() {
 
         given(authToken).
                 when().get("/infrastructure/pattern/gold/"+patternId+"/vm").
-                then().body("name", hasValue("ars-win-81-64b"));
+                then().body("name", hasToString("ars-Win-81-Ent-64b-GP")).toString();
 
+        getVM = given(authToken).
+                when().get("/infrastructure/pattern/gold/"+patternId+"/vm").
+                prettyPrint();
     }
 
-    @Test
+    // @Test
     public void getPlatformVersion(){
 
     }
 
-    @Test
+    @Test(dependsOnMethods = "getVMNameForGoldPatternTest")
     public void getGoldPatterns(){
         given(authToken).
                 when().get("/infrastructure/manager/patterns?type=G").
@@ -99,12 +100,12 @@ public class takeImageOfflineTest {
 
     }
 
-    @Test
+    @Test(dependsOnMethods = "getGoldPatterns")
     public void powerOnGoldPattern(){
         //Check patternId in response is same above.
-        given(authToken).
+        given(authToken).body(getVM).accept("application/json").contentType("application/json").log().everything().
                 when().post("/infrastructure/vm/"+patternId+"/perform/POWERON").
-                then().statusCode(200).and().body("patternId", hasValue("ars-win-81-64b"));
+                then().statusCode(200).and().body("name", hasToString("ars-Win-81-Ent-64b-GP"));
 
 
     }

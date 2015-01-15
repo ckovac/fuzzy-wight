@@ -46,6 +46,7 @@ public class getDesktopPoolID {
         given(authToken).
                 when().get("/infrastructure/pool/desktop/"+poolId+"/groups").
                 then().body("$", hasItem(hasEntry("name", "cn=ars_test_users,cn=users,dc=qa-tenantb,dc=dt,dc=vmware,dc=com")));
+        // TODO: Move user groups to test data file.
     }
 
     @Test
