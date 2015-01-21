@@ -45,10 +45,11 @@ public class renameImagesTest {
                 Reporter.log("Could not find an expected Gold Pattern. Exiting Test", true);
                 i++;
             }
-//            i = goldPatternJson.size();
         }
     }
-
+    /*Name parameter has a max size of 15.
+    Add test case to change name with name > 15 characters
+    Add test case to change name with blank value. */
     @Test
     public void renameImage(){
         given(authToken).log().ifValidationFails().
@@ -63,7 +64,6 @@ public class renameImagesTest {
                 .when().get("/infrastructure/pattern/gold/"+patternId)
                 .then().body("name", hasToString(modifiedImageName));
     }
-
 
     @AfterClass
     public void resetImageAfterTest() {
