@@ -8,5 +8,9 @@
     "password": "@@dtlab1",
     "domain": "QA-TENANTB"
   },
-  "goldPatterns": ["ars-win-81-64b","ars-Win2012-Non-RDS-GP","ars-Win2012-RDS-GP"]
+  "goldPatterns": ["ars-win-81-64b","ars-Win12-GP","ars-Win2012-RDS-GP"],
+  "renameGoldPattern": {
+    "initialName": "ars-Win12-GP",
+    "modifiedName": "ars-GP-renamed"
+  }
 }

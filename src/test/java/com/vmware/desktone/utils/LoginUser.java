@@ -17,9 +17,10 @@ import static com.vmware.desktone.utils.ReadTestData.*;
  * Created by apoorvas on 12/15/14.
  */
 public class LoginUser {
+    public static JSONObject testData;
 
     public static RequestSpecification loginUser() throws IOException {
-        JSONObject testData = getTestDataFile();
+        testData = getTestDataFile();
 
         RestAssured.baseURI = testData.getJSONObject("environment").get("baseURI").toString();
         RestAssured.basePath = testData.getJSONObject("environment").get("basePath").toString();
