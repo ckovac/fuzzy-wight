@@ -1,8 +1,11 @@
-package com.vmware.desktone;
+package com.vmware.desktone.astro;
 
 import com.jayway.restassured.RestAssured.*;
 import com.jayway.restassured.specification.RequestSpecification;
 import com.vmware.desktone.utils.LoginUser;
+import com.vmware.desktone.utils.ReadTestData;
+import net.sf.json.JSONArray;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -10,16 +13,19 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 import static com.jayway.restassured.RestAssured.given;
+import static com.vmware.desktone.utils.ReadTestData.getTestDataFile;
 import static org.hamcrest.Matchers.*;
 
 public class showImagesTest {
 
     RequestSpecification authToken;
+    JSONArray goldPatterns;
 
     @BeforeClass
     public void loginAsUser() throws IOException {
         authToken = LoginUser.loginUser();
-        System.out.println("Starting Tests in : " + getClass().toString() + "\n");
+        goldPatterns = getTestDataFile().getJSONArray("goldPatterns");
+        Reporter.log("Starting Tests in : " + getClass().toString() + "\n", true);
     }
 
     @Test
@@ -27,10 +33,7 @@ public class showImagesTest {
 
         given(authToken).
                 when().get("/infrastructure/manager/patterns?type=G").
-                then().body("name", hasItems("ars-Win2012-RDS-GP","ars-win-81-64b", "ars-Win-81-Ent-64b-GP", "ars-Win2012-Non-RDS-GP"));
-
-        // "ars-Win2012-RDS-GP","ars-win-81-64b", "ars-Win-81-Ent-64b-GP", "ars-Win2012-Non-RDS-GP"
-
+                then().body("name", hasItems(goldPatterns.toArray()));
     }
 
     // @Test : Commented out since UI invokes this as a POST right now. Need to
@@ -42,6 +45,6 @@ public class showImagesTest {
 
     @AfterClass
     public void completedTest() {
-        System.out.println("Completed Tests in : " + getClass().toString());
+        Reporter.log("Completed Tests in : " + getClass().toString(), true);
     }
 }

@@ -1,4 +1,4 @@
-package com.vmware.desktone;
+package com.vmware.desktone.astro;
 
 import com.jayway.restassured.RestAssured.*;
 import com.jayway.restassured.specification.RequestSpecification;
@@ -79,8 +79,6 @@ public class editImagesTest {
 
     @Test(dependsOnMethods = "validateGoldPatternDisabled")
     public void updateGoldPatternNotesById(){
-
-    //    String goldPattern = getGoldPatternById();
 
         JSONObject updateNotes = JSONObject.fromObject(getGoldPatternById());
         updateNotes.put("notes", "test5");

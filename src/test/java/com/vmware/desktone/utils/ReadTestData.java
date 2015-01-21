@@ -14,9 +14,9 @@ public class ReadTestData {
      ClassLoader cl = ReadTestData.class.getClassLoader();
      InputStream is = cl.getResourceAsStream("testData.json");
      String data = IOUtils.toString(is);
-     JSONObject env = (JSONObject) JSONSerializer.toJSON(data);
+     JSONObject testData = (JSONObject) JSONSerializer.toJSON(data);
 
-     return env;
+     return testData;
  }
 
 }

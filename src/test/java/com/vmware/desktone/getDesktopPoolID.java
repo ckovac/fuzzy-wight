@@ -1,6 +1,5 @@
 package com.vmware.desktone;
 
-import apple.laf.JRSUIConstants;
 import com.jayway.restassured.RestAssured.*;
 import com.jayway.restassured.specification.RequestSpecification;
 import com.vmware.desktone.utils.LoginUser;

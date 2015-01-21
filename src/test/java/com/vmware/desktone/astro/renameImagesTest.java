@@ -1,4 +1,4 @@
-package com.vmware.desktone;
+package com.vmware.desktone.astro;
 
 import com.jayway.restassured.RestAssured.*;
 import com.jayway.restassured.specification.RequestSpecification;

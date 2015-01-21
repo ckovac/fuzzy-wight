@@ -1,4 +1,4 @@
-package com.vmware.desktone;
+package com.vmware.desktone.astro;
 
 import com.jayway.restassured.specification.RequestSpecification;
 import com.vmware.desktone.utils.LoginUser;
@@ -36,7 +36,7 @@ public class takeImageOfflineTest {
         for (int i = 0; i < goldPatternArray.size(); i++) {
             JSONObject pools = (JSONObject) goldPatternArray.get(i);
 
-            if (pools.getString("name").equalsIgnoreCase("ars-Win-81-Ent-64b-GP")) {
+            if (pools.getString("name").equalsIgnoreCase("ars-Win2012-Non-RDS-GP")) {
                 patternId = pools.getString("id");
                 System.out.println("Found valid gold Pattern with id: " + patternId);
             }
@@ -72,7 +72,7 @@ public class takeImageOfflineTest {
 
         given(authToken).
                 when().get("/infrastructure/pattern/gold/"+patternId+"/vm").
-                then().body("name", hasToString("ars-Win-81-Ent-64b-GP")).toString();
+                then().body("name", hasToString("ars-Win2012-Non-RDS-GP")).toString();
 
         getVM = given(authToken).
                 when().get("/infrastructure/pattern/gold/"+patternId+"/vm").
@@ -88,7 +88,7 @@ public class takeImageOfflineTest {
     public void getGoldPatterns(){
         given(authToken).
                 when().get("/infrastructure/manager/patterns?type=G").
-                then().body("name", hasItems("ars-Win2012-RDS-GP","ars-win-81-64b", "ars-Win-81-Ent-64b-GP", "ars-Win2012-Non-RDS-GP"));
+                then().body("name", hasItems("ars-Win2012-RDS-GP","ars-win-81-64b","ars-Win2012-Non-RDS-GP"));
 
     }
 
@@ -105,7 +105,7 @@ public class takeImageOfflineTest {
         //Check patternId in response is same above.
         given(authToken).body(getVM).accept("application/json").contentType("application/json").log().everything().
                 when().post("/infrastructure/vm/"+patternId+"/perform/POWERON").
-                then().statusCode(200).and().body("name", hasToString("ars-Win-81-Ent-64b-GP"));
+                then().statusCode(200).and().body("name", hasToString("ars-Win2012-Non-RDS-GP"));
 
 
     }

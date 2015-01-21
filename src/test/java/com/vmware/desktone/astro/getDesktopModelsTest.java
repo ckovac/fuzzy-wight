@@ -1,13 +1,15 @@
-package com.vmware.desktone;
+package com.vmware.desktone.astro;
 
 import com.jayway.restassured.RestAssured.*;
 import com.jayway.restassured.specification.RequestSpecification;
 import com.vmware.desktone.utils.LoginUser;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.testng.reporters.*;
 
 import java.io.IOException;
 
@@ -23,7 +25,8 @@ public class getDesktopModelsTest {
     @BeforeClass
     public void loginAsUser() throws IOException {
         authToken = LoginUser.loginUser();
-        System.out.println("Starting Tests in : " + getClass().toString() + "\n");
+//        System.out.println("Starting Tests in : " + getClass().toString() + "\n");
+        Reporter.log("Starting Tests in : " + getClass().toString() + "\n", true);
     }
 
     @Test

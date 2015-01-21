@@ -33,8 +33,9 @@ public class LoginUser {
         String domain = testData.getJSONObject("user").get("domain").toString();
 
         String auth= post("/system/login?domain=" + domain + "&user=" + user + "&pw=" + password).getHeader("Authorization");
+        String csrf_header= post("/system/login?domain=" + domain + "&user=" + user + "&pw=" + password).getHeader("x-dt-csrf-header");
 
-        RequestSpecification requestSpec = with().headers("Authorization", auth, "Accept", "application/json");
+        RequestSpecification requestSpec = with().headers("Authorization", auth, "Accept", "application/json", "x-dt-csrf-header", csrf_header);
         return requestSpec;
     }
 }
