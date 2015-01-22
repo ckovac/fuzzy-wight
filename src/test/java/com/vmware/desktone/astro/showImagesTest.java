@@ -36,12 +36,12 @@ public class showImagesTest {
                 then().body("name", hasItems(goldPatterns.toArray()));
     }
 
-    // @Test : Commented out since UI invokes this as a POST right now. Need to
+/*  @Test : Commented out since UI invokes this as a POST right now. Need to
     public void getPatterns() {
         given(authToken).
                 when().get("/infrastructure/pool/desktop/1005/patterns").
                 then().body("desktopPoolId", hasValue("1005"));
-    }
+    }*/
 
     @AfterClass
     public void completedTest() {

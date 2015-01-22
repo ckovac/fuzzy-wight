@@ -22,5 +22,6 @@
   "renameGoldPattern": {
     "initialName": "ars-Win12-GP",
     "modifiedName": "ars-GP-renamed"
-  }
+  },
+  "editGoldPattern": "ars-Win2012-RDS-GP"
 }
