@@ -31,7 +31,7 @@ public class renameImagesTest {
         modifiedImageName = LoginUser.testData.getJSONObject("renameGoldPattern").getString("modifiedName");
         Reporter.log("Starting Tests in : " + getClass().toString() + "\n", true);
 
-        // Get all Gold Patterns and find id for Gold Pattern
+        // Get all Gold Patterns and find id for Gold Pattern. Can move this method to util package since used often.
         response = given(authToken).when().get("/infrastructure/manager/patterns?type=G").asString();
         goldPatternJson = (JSONArray) JSONSerializer.toJSON(response); //TODO: Refactor to use fromObject to serialize into JSONArray.
 

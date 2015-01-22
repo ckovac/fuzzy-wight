@@ -8,6 +8,16 @@
     "password": "@@dtlab1",
     "domain": "QA-TENANTB"
   },
+  "tenant": {
+    "dataCenterName": "US",
+    "frontNetworkId": "1013",
+    "frontNetworkType": "vlan",
+    "backBoneNetworkId": "4003",
+    "backBoneNetworkType": "vlan",
+    "gateway": "10.31.13.1",
+    "dnsServer": "10.31.13.3"
+  },
+  "desktopModels": ['Normal', 'Utility', 'ars-win-12-non-rds', 'ars-win-12-rds', 'ars-win-81-model'],
   "goldPatterns": ["ars-win-81-64b","ars-Win12-GP","ars-Win2012-RDS-GP"],
   "renameGoldPattern": {
     "initialName": "ars-Win12-GP",
