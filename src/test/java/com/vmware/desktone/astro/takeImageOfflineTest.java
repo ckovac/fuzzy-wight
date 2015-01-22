@@ -4,6 +4,7 @@ import com.jayway.restassured.specification.RequestSpecification;
 import com.vmware.desktone.utils.LoginUser;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -13,7 +14,6 @@ import java.io.IOException;
 import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.hasItems;
 import static org.hamcrest.Matchers.hasToString;
-import static org.hamcrest.Matchers.hasValue;
 
 public class takeImageOfflineTest {
 
@@ -23,11 +23,14 @@ public class takeImageOfflineTest {
     String patternId;
     private String goldPatternById;
     String getVM;
+    private String modifyGoldPatternName;
 
     @BeforeClass
-    public String getIdForGoldPattern() throws IOException {
+    public void getIdForGoldPattern() throws IOException {
         authToken = LoginUser.loginUser();
-        System.out.println("Starting Tests in : " + getClass().toString() + "\n");
+        Reporter.log("Starting Tests in : " + getClass().toString() + "\n", true);
+
+        modifyGoldPatternName = LoginUser.testData.getString("editGoldPattern");
 
         // Get all Gold Patterns and find id for Gold Pattern
         response = given(authToken).when().get("/infrastructure/manager/patterns?type=G").asString();
@@ -36,18 +39,17 @@ public class takeImageOfflineTest {
         for (int i = 0; i < goldPatternArray.size(); i++) {
             JSONObject pools = (JSONObject) goldPatternArray.get(i);
 
-            if (pools.getString("name").equalsIgnoreCase("ars-Win2012-Non-RDS-GP")) {
+            if (pools.getString("name").equalsIgnoreCase(modifyGoldPatternName)) {
                 patternId = pools.getString("id");
-                System.out.println("Found valid gold Pattern with id: " + patternId);
+                Reporter.log("Found valid gold Pattern with id: " + patternId, true);
             }
         }
-        return patternId;
     }
 
     private String getGoldPatternById(){
         // Get Gold Pattern by Id and create JSON to update Gold Pattern
         goldPatternById = given(authToken).when().get("/infrastructure/pattern/gold/"+patternId).asString();
-        System.out.println("Got Gold Pattern: \n"+goldPatternById+"\n");
+        Reporter.log("Got Gold Pattern: \n"+goldPatternById+"\n", true);
 
         return goldPatternById;
     }
@@ -59,7 +61,7 @@ public class takeImageOfflineTest {
         updateGoldPattern.put("enabled", false);
         updateGoldPattern.remove("DtLink");
 
-        System.out.println("Sending PUT request with body : \n"+updateGoldPattern.toString()+"\n");
+        Reporter.log("Sending PUT request with body : \n"+updateGoldPattern.toString()+"\n", true);
 
         given(authToken).log().ifValidationFails().contentType("application/json").
                 and().body(updateGoldPattern.toString()).
@@ -72,46 +74,46 @@ public class takeImageOfflineTest {
 
         given(authToken).
                 when().get("/infrastructure/pattern/gold/"+patternId+"/vm").
-                then().body("name", hasToString("ars-Win2012-Non-RDS-GP")).toString();
+                then().body("name", hasToString(modifyGoldPatternName));
 
         getVM = given(authToken).
                 when().get("/infrastructure/pattern/gold/"+patternId+"/vm").
                 prettyPrint();
     }
 
-    // @Test
+/*  @Test
     public void getPlatformVersion(){
 
-    }
+    }*/
 
     @Test(dependsOnMethods = "getVMNameForGoldPatternTest")
     public void getGoldPatterns(){
         given(authToken).
                 when().get("/infrastructure/manager/patterns?type=G").
-                then().body("name", hasItems("ars-Win2012-RDS-GP","ars-win-81-64b","ars-Win2012-Non-RDS-GP"));
+                then().body("name", hasItems("ars-Win2012-RDS-GP","ars-win-81-64b","ars-Win2012-gp"));
 
     }
 
-    // @Test : Commented out since UI invokes this as a POST right now.
+/*  @Test : Commented out since UI invokes this as a POST right now.
     public void getPatternsForId(){
         given(authToken).
                 when().get("/infrastructure/pool/desktop/1005/patterns").
                 then().body("desktopPoolId", hasValue("1005"));
 
-    }
+    }*/
 
     @Test(dependsOnMethods = "getGoldPatterns")
     public void powerOnGoldPattern(){
         //Check patternId in response is same above.
         given(authToken).body(getVM).accept("application/json").contentType("application/json").log().everything().
                 when().post("/infrastructure/vm/"+patternId+"/perform/POWERON").
-                then().statusCode(200).and().body("name", hasToString("ars-Win2012-Non-RDS-GP"));
+                then().statusCode(200).and().body("name", hasToString(modifyGoldPatternName));
 
 
     }
 
     @AfterClass
     public void completedTest() {
-        System.out.println("Completed Tests in : " + getClass().toString());
+        Reporter.log("Completed Tests in : " + getClass().toString(), true);
     }
 }

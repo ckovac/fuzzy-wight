@@ -1,6 +1,5 @@
 package com.vmware.desktone.astro;
 
-//import com.jayway.restassured.RestAssured.*;
 import com.jayway.restassured.specification.RequestSpecification;
 import com.vmware.desktone.utils.LoginUser;
 import net.sf.json.JSONArray;
