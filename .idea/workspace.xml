@@ -1,119 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="5ee10717-c829-4877-a3ed-574ce68f422a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-active-directory.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-agent-communicator-common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-agent-communicator-dao-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-agent-communicator.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-agent-upstream-communicator-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-allocator-ejb-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-allocator-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-allocator.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-authentication.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-bindings.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-blast-html5.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-bootstrap-ws-war.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-cache.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-client-desktop-allocator.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-client-login-mgr-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-client-login-mgr-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-collector-delegate-ejb-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-collector-delegate.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-common-data-model.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-core.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-database-dao-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-database-dao-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-database-dao.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-database-delegate-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-delegate-provider-internal.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-deployer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-desktop-eventmgr-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-desktop-eventmgr.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-desktopfactory-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-desktopmgr-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-directory-server-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-directory-server-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-element-model.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-deployer-service-mbean-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-main-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-main-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-model-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-persistence.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-policymgr-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-policymgr.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-registration-service-mbean-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-security-mbean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-ws-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-ws-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-emgr-ws.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-event-sender-ejb-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-fabric-delegate-ejb-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-fabric-delegate-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-fabric-mapping-mgr-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-fabric-node-inventory.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-fabric-persistence.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-fabric-userpattern-ejb-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-fabric-userpattern-ejb-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-fabric-ws-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-fabric.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-hostmgr-sim-mbean-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-hostmgr-sim-service-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-hostmgr-sim-ws-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-hostmgr-sim-ws-war.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-install.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-installmanager-data-model.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-installmanager-service-mbean-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-java-bindings.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-model-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-model-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-monitoring-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-policymgr-delegate-ejb-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-policymgr-delegate.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-policymgr.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-poolmgr-delegate-ws.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-provision-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-public-ws-user-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-quota-mgr-common.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-release.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-remote-config-builder-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-remote-config-builder.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-reservation.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-reservationmanager-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-reservationmanager-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-reservationmgr-delegate-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-rest.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-scheduler.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-service-location-manager-mbean-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-service-location-manager-mbean-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-service-locator-web-core.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-service-provider-node-ear.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-simulator.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-transitserver-mbean-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-upgrade.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-user-portal.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-vmgr-dao-impl.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-vmgr-ear.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-vmgr-mbean-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-vmgr-security-mbean.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-vmgr-ws-war.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../trunk/dt-vmgr.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../trunk" afterPath="$PROJECT_DIR$/../trunk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../trunk/dt-rest/dt-rest-client/dt-bindings/dt-java-bindings/src/main/java/com/desktone/rest/client/bindings/DtFactory.java" afterPath="$PROJECT_DIR$/../trunk/dt-rest/dt-rest-client/dt-bindings/dt-java-bindings/src/main/java/com/desktone/rest/client/bindings/DtFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/vmware/desktone/utils/LoginUser.java" afterPath="$PROJECT_DIR$/src/test/java/com/vmware/desktone/utils/LoginUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/vmware/desktone/utils/ReadTestData.java" afterPath="$PROJECT_DIR$/src/test/java/com/vmware/desktone/utils/ReadTestData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../trunk/dt-emgr/dt-collector/dt-collector-impl/pom.xml" afterPath="$PROJECT_DIR$/../trunk/dt-emgr/dt-collector/dt-collector-impl/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../trunk/dt-rest/dt-rest-client/dt-rest-sample-client/pom.xml" afterPath="$PROJECT_DIR$/../trunk/dt-rest/dt-rest-client/dt-rest-sample-client/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternEnabledTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternEnabledTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternNotesTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternNotesTest.java" />
+    <list default="true" id="5ee10717-c829-4877-a3ed-574ce68f422a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_2_2_3.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fuzzy-wight.iws" />
@@ -137,47 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.125" vertical-offset="165" max-vertical-offset="1035">
-              <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+            <state vertical-scroll-proportion="0.76363635" vertical-offset="0" max-vertical-offset="13215">
+              <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testData.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testData.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateGoldPatternNotesTest.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternNotesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08888889" vertical-offset="0" max-vertical-offset="990">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-              <folding>
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#730#731#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="updateGoldPatternWithNullId.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternWithNullId.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1035">
-              <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -201,31 +56,25 @@
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPattern.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/RestTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/TestData.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testData.json" />
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPattern_clone.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternWithNoId.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternWithNullId.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternEnabledTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/utils/ReadTestData.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/utils/LoginUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternNotesTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/vmware/desktone/astro/getTasksTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testData.json" />
       </list>
     </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="dedicatedModuleDir" value="$PROJECT_DIR$/../" />
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
-    </option>
-    <option name="enabledProfiles">
-      <list>
-        <option value="desktone" />
-        <option value="persistent" />
-      </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -239,7 +88,6 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="821" />
@@ -286,46 +134,27 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fuzzy-wight" />
+              <option name="myItemId" value="fuzz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fuzzy-wight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fuzzy-wight" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fuzzy-wight" />
+              <option name="myItemId" value="fuzz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="fuzzy-wight" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fuzzy-wight" />
+              <option name="myItemId" value="fuzz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -341,17 +170,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="desktone" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fuzzy-wight" />
+              <option name="myItemId" value="fuzz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -374,14 +199,10 @@
               <option name="myItemId" value="desktone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="fuzzy-wight" />
+              <option name="myItemId" value="fuzz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -390,11 +211,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="desktone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="astro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuzzy-wight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fuzzy-wight" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -405,21 +271,16 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="recentsLimit" value="5" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$USER_HOME$/svnrepo" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="OverrideImplement.combined" value="true" />
-    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -427,11 +288,14 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/com/vmware/desktone/astro" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.vmware.desktone" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.updateGoldPatternWithNullId">
+  <component name="RunManager" selected="TestNG.getTasksTest">
     <configuration default="false" name="RestAssuredSampleServiceIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rest-assured-examples-webapp" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -518,6 +382,35 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="getTasksTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="fuzz" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="com.vmware.desktone.astro" />
+      <option name="MAIN_CLASS_NAME" value="com.vmware.desktone.astro.getTasksTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -545,67 +438,6 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fuzzy-wight" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fuzzy-wight" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fuzzy-wight" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -614,26 +446,17 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fuzzy-wight" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -663,19 +486,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
@@ -688,25 +498,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fuzzy-wight" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -729,25 +520,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="fuzzy-wight" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -768,16 +540,18 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.RestAssuredSampleServiceIT" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.RestTest" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.updateGoldPatternWithNullId" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.getTasksTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.updateGoldPatternWithNullId" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.RestTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RestAssuredSampleServiceIT" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.getTasksTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.updateGoldPatternWithNullId" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.RestTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RestAssuredSampleServiceIT" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -789,24 +563,6 @@
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>$USER_HOME$/.subversion</configuration>
     <supportedVersion>125</supportedVersion>
-  </component>
-  <component name="SvnFileUrlMappingImpl">
-    <option name="myMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$/../trunk" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$/../trunk" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
-    <option name="myMoreRealMappingRoots">
-      <list>
-        <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="$PROJECT_DIR$/../trunk" />
-          <option name="myCopyRoot" value="$PROJECT_DIR$/../trunk" />
-        </SvnCopyRootSimple>
-      </list>
-    </option>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -837,27 +593,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="821" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.564433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32784638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32859176" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25608012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5675676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5665295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -896,39 +652,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="480">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternNotesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="588" max-vertical-offset="1320">
-          <caret line="59" column="35" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-          <folding>
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="495">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternNotesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="690">
-          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
-          <folding>
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -940,106 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternNotesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="690">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="495">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternNotesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="690">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rest-assured-samples/src/test/java/it/RestAssuredSampleServiceIT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33279485" vertical-offset="304" max-vertical-offset="2925">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../rest-assured-samples/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1485">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-rest/dt-model-api/src/main/java/com/desktone/rest/resource/DtGoldPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6538463" vertical-offset="26" max-vertical-offset="2655">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-rest/dt-model-impl/src/main/java/com/desktone/rest/resource/impl/DtGoldPatternImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.846154" vertical-offset="933" max-vertical-offset="3195">
-          <caret line="142" column="44" selection-start-line="142" selection-start-column="44" selection-end-line="142" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-fabric/dt-fabric-data-model/src/main/java/com/desktone/dataModel/GoldPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1227" max-vertical-offset="3330">
-          <caret line="169" column="19" selection-start-line="169" selection-start-column="19" selection-end-line="169" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-rest/dt-model-api/src/main/java/com/desktone/rest/resource/DtInfrastructureManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6165">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-rest/dt-model-api/src/main/java/com/desktone/rest/common/DtLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1020">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/push_code.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.44670847" vertical-offset="405" max-vertical-offset="11670">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-automation/testcases/testcase_webdriver_sp_register_tenant_sp4_japan.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1048,7 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13029316" vertical-offset="310" max-vertical-offset="1020">
           <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1056,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.117263846" vertical-offset="3543" max-vertical-offset="5430">
           <caret line="242" column="23" selection-start-line="242" selection-start-column="23" selection-end-line="242" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1064,7 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3532182" vertical-offset="0" max-vertical-offset="637">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11302983" vertical-offset="1053" max-vertical-offset="2400">
           <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,7 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1255887" vertical-offset="3055" max-vertical-offset="3855">
           <caret line="210" column="17" selection-start-line="210" selection-start-column="17" selection-end-line="210" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1088,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41130298" vertical-offset="68" max-vertical-offset="705">
           <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1255887" vertical-offset="1060" max-vertical-offset="2220">
           <caret line="77" column="50" selection-start-line="77" selection-start-column="50" selection-end-line="77" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1104,39 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18838304" vertical-offset="0" max-vertical-offset="637">
           <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-rest/dt-rest-client/dt-rest-sample-client/src/main/java/com/desktone/rest/client/sample/DtErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.067975834" vertical-offset="0" max-vertical-offset="662">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-rest/dt-rest-client/dt-rest-sample-client/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-rest/dt-rest-client/dt-rest-sample-client/src/main/java/com/desktone/rest/client/sample/DtAstroSampleClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0755286" vertical-offset="2743" max-vertical-offset="3405">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-rest/dt-rest-client/dt-rest-sample-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13824885" vertical-offset="0" max-vertical-offset="1620">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1144,15 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../trunk/dt-rest/dt-rest-client/dt-rest-client-tests/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4516129" vertical-offset="41" max-vertical-offset="1350">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,22 +765,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34536892" vertical-offset="1070" max-vertical-offset="3555">
           <caret line="87" column="76" selection-start-line="87" selection-start-column="76" selection-end-line="87" selection-end-column="76" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/utils/LoginUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5291411" vertical-offset="75" max-vertical-offset="750">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/utils/ReadTestData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2888889" vertical-offset="0" max-vertical-offset="675">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125" vertical-offset="165" max-vertical-offset="1035">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.87446505" vertical-offset="392" max-vertical-offset="1110">
+          <caret line="67" column="0" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternWithNullId.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/astro/getTasksTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1035">
-          <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1184,52 +802,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testData.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.41666666" vertical-offset="0" max-vertical-offset="480">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/utils/LoginUser.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5291411" vertical-offset="75" max-vertical-offset="750">
-          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternEnabledTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57515335" vertical-offset="90" max-vertical-offset="1155">
-          <caret line="31" column="65" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/utils/ReadTestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2888889" vertical-offset="0" max-vertical-offset="675">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/vmware/desktone/updateGoldPatternNotesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08888889" vertical-offset="0" max-vertical-offset="990">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding>
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.76363635" vertical-offset="0" max-vertical-offset="13215">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,7 +856,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1285,7 +868,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>fuzzy-wight</last-edited>
+          <last-edited>fuzz</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1301,7 +884,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.4439946" />
               </list>
             </option>
           </splitter-proportions>
@@ -1309,7 +892,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: com.beust:jcommander:1.27</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
